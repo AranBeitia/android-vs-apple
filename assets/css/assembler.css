@@ -3,3 +3,24 @@
 body {
     
 }
+.l-header {
+    background-color: #333333;
+    outline: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.c-nav [role='menuitem']{
+    color:#ffffff;
+}
+.logo-android__wordmark-icon {
+color:#ffffff;
+}
+.l-header .c-nav--main {
+    float: none;
+}
+.c-nav--main .btn--search {
+    position: static;
+}
+.c-nav__inner {
+    display: flex;
+}
