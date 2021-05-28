@@ -27,6 +27,7 @@ color:#ffffff;
 .l-header .c-nav--main [role='menubar']{
     margin: 5px 75px 5px 0;
 }
-.c-nav [role='menuitem']:hover {
+.c-nav [role='menuitem']:hover,
+.c-nav--main .btn--search:hover {
     color: white;
 }
