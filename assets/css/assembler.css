@@ -2,9 +2,9 @@
 
 .l-header {
     background-color: #333333;
-    outline: 1px solid red;
     display: flex;
     justify-content: center;
+    height: 45px;
 }
 .c-nav [role='menuitem']{
     color:#ffffff;
@@ -20,4 +20,13 @@ color:#ffffff;
 }
 .c-nav__inner {
     display: flex;
+}
+.l-header .logo-android {
+    margin: 10px 30px 10px 40px;
+}
+.l-header .c-nav--main [role='menubar']{
+    margin: 5px 75px 5px 0;
+}
+.c-nav [role='menuitem']:hover {
+    color: white;
 }
