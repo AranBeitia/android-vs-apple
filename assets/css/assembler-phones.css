@@ -4,7 +4,7 @@ body {
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
-.l-header {
+/* .l-header {
     background-color: #333333;
     display: flex;
     justify-content: center;
@@ -34,8 +34,10 @@ color:#ffffff;
 .c-nav [role='menuitem']:hover,
 .c-nav--main .btn--search:hover {
     color: white;
-}
+} */
 
+
+/** footer */
 .l-footer {
     background-color: #f5f5f7;
     position: relative;
@@ -49,11 +51,11 @@ color:#ffffff;
     padding: 20px; 
 }
 
-.c-nav [role='menuitem'] {
+.l-footer .c-nav [role='menuitem'] {
     color: #86868b;
 }
 
-.c-nav [role='menuitem']:hover {
+.l-footer .c-nav [role='menuitem']:hover {
     color: #86868b;
     text-decoration: underline;
     text-decoration-color: #86868b;
