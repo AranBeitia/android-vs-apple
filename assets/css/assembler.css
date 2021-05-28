@@ -1,13 +1,19 @@
 /* section 1 HEADER */
 
 .l-header {
-    background-color: #333333;
+    background: rgba(0,0,0,0.8);
     display: flex;
     justify-content: center;
     height: 45px;
 }
 .c-nav [role='menuitem']{
     color:#ffffff;
+    font-weight: 300;
+    text-transform: lowercase;
+    font-size: 14px;
+}
+.c-nav [role='menuitem']:first-letter {
+    text-transform: uppercase;
 }
 .logo-android__wordmark-icon {
 color:#ffffff;
@@ -43,9 +49,17 @@ color:#ffffff;
     background-color: transparent;
     color: #2997ff;
     border-color: transparent;
+    text-transform: lowercase;
+    font-size: 1.1rem;
+}
+.btn--blue.btn--full:first-letter {
+    text-transform: uppercase;
 }
 .btn--blue.btn--full:hover {
     text-decoration: underline;
+}
+.btn--blue.btn--full:hover :first-letter {
+    text-transform: uppercase;
 }
 /* section 3 home page */
 .l-section__intro h2 {
@@ -63,7 +77,13 @@ color:#ffffff;
 }
 .btn.btn--text.cascade-text__item {
     color: #2997ff;
+    text-transform: lowercase;
+    font-size: 1.1rem;
+}
+.btn.btn--text.cascade-text__item::first-letter {
+    text-transform: uppercase;
 }
 .btn.btn--text.cascade-text__item:hover {
     text-decoration: underline;
 }
+/* section 4 home page */
