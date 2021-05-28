@@ -1,8 +1,11 @@
 a:hover, a:focus, .link:hover, .link:focus {
   color: white;
 }
+.index .u-bg-gray-light {
+  background-color: white!important;
+}
 
-.u-bg-gray-light {
+.enterprise .u-bg-gray-light {
   background-color: #000000!important;
   color: white;
 }
@@ -17,9 +20,9 @@ h1.beta {
   font-weight: bold;
   color: #ffffff;
 }
-h2.alpha,
-p.text-normal,
-h3.beta {
+.enterprise h2.alpha,
+.enterprise p.text-normal,
+.enterprise h3.beta {
   color: #ffffff;
 }
 .btn {
