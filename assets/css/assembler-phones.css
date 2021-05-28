@@ -20,13 +20,13 @@ body {
 }
 
 .l-footer .c-nav [role='menuitem'] {
-    color: #86868b;
+    color: #515154;
 }
 
 .l-footer .c-nav [role='menuitem']:hover {
-    color: #86868b;
+    color: #515154;
     text-decoration: underline;
-    text-decoration-color: #86868b;
+    text-decoration-color: #515154;
 }
 
 .text-normal {

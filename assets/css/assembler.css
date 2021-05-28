@@ -91,3 +91,41 @@ color:#ffffff;
     text-decoration: underline;
 }
 /* section 4 home page */
+.apps-carousel__item {
+    padding-top: 120px;
+}
+.apps-carousel__device-category li a {
+    color: #2997ff;
+    text-transform: lowercase;
+    font-size: 1.1rem;
+}
+.apps-carousel__device-category li a {
+    text-transform: capitalize;
+}
+.btn.btn--text {
+    color: #2997ff;
+    text-transform: lowercase;
+    font-size: 1.1rem;
+}
+.btn.btn--text::first-letter {
+    text-transform: uppercase;
+}
+.c-device__title {
+    color: black;
+}
+.c-devices-pager-carousel__explore-btn {
+    color: black;
+    border: 2px solid #000000;
+}
+.c-blocks__item-category {
+    color: #2997ff;
+}
+.c-footnotes {
+    color: #ffffff;
+}
+.c-nav__dropdown.c-nav__dropdown--default  {
+color: #515154;
+}
+.l-footer__legal a {
+    color: black;
+}
