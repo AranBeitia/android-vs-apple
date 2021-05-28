@@ -1,0 +1,10 @@
+.u-bg-gray-light {
+  background-color: #000000!important;
+  color: white;
+}
+
+.enter-subnav .enter-subnav__nav-link:hover,
+.enter-subnav .enter-subnav__nav-link.is-active,
+.enter-subnav .enter-subnav__nav-link.open {
+  color: rgba(255, 255, 255, .6);
+}

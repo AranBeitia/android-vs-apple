@@ -37,6 +37,10 @@ color:#ffffff;
 .c-nav--main .btn--search:hover {
     color: white;
 }
+
+.c-nav [role='menuitem'].is-active {
+    color: rgba(255, 255, 255, .6);
+}
 /* Section 2 home page */
 .u-bg-white {
     background-color: #000000 !important;
