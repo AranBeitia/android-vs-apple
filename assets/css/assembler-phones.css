@@ -78,6 +78,6 @@ a, .link {
 }
 
 /* Section 3 */
-/* .o-container  {
-    background-color: ;
-} */
+#section-os .o-container  {
+    background-color: #fff;
+} 
