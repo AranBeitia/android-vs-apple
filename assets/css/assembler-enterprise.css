@@ -80,3 +80,10 @@ h3.beta {
 .enter-subnav__cta:hover {
   text-decoration: underline;
 }
+
+.enterprise .l-footer,
+.enterprise .l-footer .c-nav [role="menuitem"],
+.enterprise .l-footer__metadata {
+  color: white;
+  background-color: #000000;
+}
