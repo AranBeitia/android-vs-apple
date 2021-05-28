@@ -1,4 +1,4 @@
-/* Here you can write your CSS code */
+/* section 1 HEADER */
 
 .l-header {
     background-color: #333333;
@@ -30,4 +30,40 @@ color:#ffffff;
 .c-nav [role='menuitem']:hover,
 .c-nav--main .btn--search:hover {
     color: white;
+}
+/* Section 2 home page */
+.u-bg-white {
+    background-color: #000000 !important;
+}
+.hero-carousel__title, .hero-carousel__body-content {
+    color:white;
+    font-weight: bold;
+}
+.btn--blue.btn--full, .btn--blue.btn--full:hover {
+    background-color: transparent;
+    color: #2997ff;
+    border-color: transparent;
+}
+.btn--blue.btn--full:hover {
+    text-decoration: underline;
+}
+/* section 3 home page */
+.l-section__intro h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.c-tabs-nav__item.is-active .c-tabs-nav__link {
+    color: #000;
+}
+.c-tabs-nav__indicator {
+    background: black;
+}
+.beta.cascade-text__item {
+    font-weight: bold;
+}
+.btn.btn--text.cascade-text__item {
+    color: #2997ff;
+}
+.btn.btn--text.cascade-text__item:hover {
+    text-decoration: underline;
 }
