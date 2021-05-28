@@ -7,6 +7,35 @@ a:hover, a:focus, .link:hover, .link:focus {
   color: white;
 }
 
+.enter--home{
+  background-color: #000000;
+}
+
+h1.beta {
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: bold;
+  color: #ffffff;
+}
+h2.alpha,
+p.text-normal,
+h3.beta {
+  color: #ffffff;
+}
+
+.slide__text.text-normal {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+[aria-selected='true'] .c-pager__item-link {
+  background-color: #000000;
+}
+
+[aria-selected='true'] .c-pager__item-link:hover {
+  background-color: rgba(255,255,255, 0.7);
+}
+
 .enter-subnav .enter-subnav__nav-link:hover,
 .enter-subnav .enter-subnav__nav-link.is-active,
 .enter-subnav .enter-subnav__nav-link.open {
