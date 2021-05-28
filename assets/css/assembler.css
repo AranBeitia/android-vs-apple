@@ -31,3 +31,18 @@ color:#ffffff;
 .c-nav--main .btn--search:hover {
     color: white;
 }
+.u-bg-white {
+    background-color: #000000 !important;
+}
+.hero-carousel__title, .hero-carousel__body-content {
+    color:white;
+    font-weight: bold;
+}
+.btn--blue.btn--full, .btn--blue.btn--full:hover {
+    background-color: transparent;
+    color: #2997ff;
+    border-color: transparent;
+}
+.btn--blue.btn--full:hover {
+    text-decoration: underline;
+}
