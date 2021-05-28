@@ -22,6 +22,20 @@ p.text-normal,
 h3.beta {
   color: #ffffff;
 }
+.btn {
+  border: 0;
+  color: #06c;
+}
+
+.btn:hover {
+  color: #06c;
+  text-decoration: underline;
+}
+
+
+.enter--home .section-users .simple-carousel .btn:hover {
+  color: #06c;
+}
 
 .slide__text.text-normal {
   font-weight: bold;
